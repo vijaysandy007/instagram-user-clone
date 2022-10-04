@@ -1,0 +1,64 @@
+.sidemenu{
+    background-color: #FFFFFF;
+    grid-area: 1/1/1/2;
+    border-right: 1px solid rgb(197, 197, 197);
+    width: 16.2%;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    /* position: static; */
+  
+  }
+
+  .instaLogo img{
+    width: 120px;
+    height: 43px;
+    margin: 15px;
+    padding-left: 4px;
+  
+  }
+
+  a{
+    list-style: none;
+    text-decoration: none;
+    color: #262626;
+  }
+  
+.drop-down-sidemenu ul li{
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .sidemmenuIcon{
+
+    margin-right: 10px;
+    width: 20px;
+   
+  }
+
+  .drop-down-sidemenu{ 
+
+    margin-left: 5%;
+  }
+  
+  
+  .drop-down-sidemenu ul li{
+    list-style: none;
+    padding: 20px;
+    font-size: 17px;
+    font-weight: 450;
+  }
+
+  .more-section{
+    position: relative;
+    display: flex;
+    top: 222px;
+    margin-left: 16%;
+    font-size: 17px;
+    font-weight: 420;
+  }
+  .more-section p{
+    margin-left:12px;
+  }

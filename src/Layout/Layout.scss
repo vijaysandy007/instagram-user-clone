@@ -1,0 +1,10 @@
+.grid-container{
+    display: grid;
+    /* grid-template-areas: "sidemenu  center-content center-content center-content friendlist-content friendlist-content"; */
+    grid-template-columns: 16.2% 3fr 1.5fr;
+  
+    height: 100vh;
+    /* background-color: #FAFAFA; */
+    
+  }
+  
